@@ -26,6 +26,9 @@ importers:
       '@angular/router':
         specifier: ^22.0.0
         version: 22.0.0(@angular/common@22.0.0(@angular/core@22.0.0(@angular/compiler@22.0.0)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.0(@angular/compiler@22.0.0)(rxjs@7.8.2))(@angular/platform-browser@22.0.0(@angular/common@22.0.0(@angular/core@22.0.0(@angular/compiler@22.0.0)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@22.0.0(@angular/compiler@22.0.0)(rxjs@7.8.2)))(rxjs@7.8.2)
+      nootstrap:
+        specifier: ^1.0.0
+        version: 1.0.0
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -2100,6 +2103,9 @@ packages:
   node-releases@2.0.47:
     resolution: {integrity: sha512-Uzmd6LXpouKo8EUK68IjH4+E01w/hXyV3R3g/geCJo+rXLNfh1xucB+LOzYEOQPSiUK3h/xZf0cQGcSsmyL2Og==}
     engines: {node: '>=18'}
+
+  nootstrap@1.0.0:
+    resolution: {integrity: sha512-GKx1xWeU9P809GlDQFEewQ2uOzpqz3oT60Se6/U52llAQGGrjlrM7AR3xicCXTbbud1w3ak05bbO9PUTD1C7pw==}
 
   nopt@9.0.0:
     resolution: {integrity: sha512-Zhq3a+yFKrYwSBluL4H9XP3m3y5uvQkB/09CwDruCiRmR/UJYnn9W4R48ry0uGC70aeTPKLynBtscP9efFFcPw==}
@@ -4626,6 +4632,8 @@ snapshots:
       which: 6.0.1
 
   node-releases@2.0.47: {}
+
+  nootstrap@1.0.0: {}
 
   nopt@9.0.0:
     dependencies:
